@@ -28,7 +28,19 @@ Curly braces hold objects
 Square brackets hold arrays
 
 
+A MongoDB Document :
+Records in a MongoDB database are called documents, and the field values may include numbers, strings, booleans, arrays, or even nested documents.
 
+Example : 
+  
+{
+	title: "Post Title 1",
+	body: "Body of post.",
+	category: "News",
+	likes: 1,
+	tags: ["news", "events"],
+	date: Date()
+}
 
 
 
